@@ -21,9 +21,9 @@
 <div  class="text-gray-50 text-center p-5 text-2xl">
     {$surah.name}
 </div>
-  <audio bind:this={$player} on:play={()=>
+  <audio style="display: block;"  bind:this={$player} controls  on:play={()=>
     playing.set(true)} on:pause={()=>
 playing.set(false)} 
-{src} autoplay >
+{src}  >
   </audio>
 </div>
