@@ -36,18 +36,18 @@
                       <div
                         class="  {s.id == $surah.id
                           ? 'bg-blue-600'
-                          : ' '} rounded-full flex justify-around"
+                          : ' '} rounded-full grid grid-cols-3 justify-items-center "
                       >
                         <td
-                          class="whitespace-nowrap  py-4 pl-4 pr-3 text-gray-50 text-base font-medium sm:pl-6 md:pl-0"
+                          class="whitespace-nowrap  col-span-1  py-4 pl-4 pr-3 text-gray-50 text-base font-medium sm:pl-6 md:pl-0"
                           >{s.id}</td
                         >
                         <td
-                          class="whitespace-nowrap py-4 px-3 text-base  text-gray-50 font-medium "
+                          class="whitespace-nowrap col-span-1 py-4 px-3 text-base  text-gray-50 font-medium "
                           >{s.name}</td
                         >
                         <td
-                          class="whitespace-nowrap py-4 px-3 text-base font-medium text-gray-50"
+                          class="whitespace-nowrap col-span-1 py-4 px-3 text-base font-medium text-gray-50"
                         >
                           {#if s.id == $surah.id}
                             {#if $playing == false}
