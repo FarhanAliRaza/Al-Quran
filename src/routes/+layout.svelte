@@ -22,8 +22,8 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <!--  Non-Essential, But Recommended -->
-  <meta property="og:description" content="Offering tour packages for individuals or groups.">
-  <meta property="og:site_name" content="European Travel, Inc.">
-  <meta name="twitter:image:alt" content="Alt text for image">
+  <meta property="og:description" content="Full quran audio in voice of qari abdul basit with urdu translation">
+  <meta property="og:site_name" content="Al Quran">
+  <meta name="twitter:image:alt" content="Alquran listen live">
   </svelte:head>
   <slot />
