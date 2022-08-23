@@ -1,0 +1,22 @@
+{
+    "short_name": "AlQuran",
+    "name": "AlQuran-Qari Basit",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "theme_color": "#000",
+    "background_color": "#fff",
+    "icons": [
+       {
+          "src": "/logo.png",
+          "type": "image/png",
+          "sizes": "500x500",
+          "purpose": "any"
+       },
+       {
+          "src": "/logo.png",
+          "type": "image/png",
+          "sizes": "500x500",
+          "purpose": "maskable"
+       }
+    ]
+ }
